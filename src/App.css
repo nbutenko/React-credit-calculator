@@ -1,0 +1,32 @@
+.App {
+  margin: 10px;
+}
+input {
+  width: 3vw;
+}
+
+table {
+  margin-top: 10px;
+ }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.credit-table tr:nth-child(even) {
+  background-color: #eee;
+}
+.credit-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.credit-table th {
+  background-color: black;
+  color: white;
+}
+
